@@ -1,22 +1,41 @@
 git init
+
 git add .
+
 git commit -m "first commit"
+
 git branch -M main
+
 git remote add origin https://github.com/konsumerof/lab02.git
+
 git push -u origin main
+
 git branch
+
 git checkout -b patch1
+
 git checkout -d patch1
+
 git checkout main
+
 git merge patch1
+
 git push origin -d patch1
+
 git status
+
 git add hello_world.cpp
+
 sudo apt install clang-format
+
 git clang-format --style Mozilla
+
 git pull --rebase
+
 git push origin patch2 --force
+
 git checkout main
+
 git merge patch2
 
 ![lab02-1](https://user-images.githubusercontent.com/90759633/159286019-953cecc5-bcc3-4ee2-b97e-a06e2472fdde.png)
