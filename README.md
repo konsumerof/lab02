@@ -14,6 +14,10 @@ git branch
 
 git checkout -b patch1
 
+git request-pull patch1
+
+hub pull-request
+
 git checkout -d patch1
 
 git checkout main
