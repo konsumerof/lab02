@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
 
-int main() {
+int
+main()
+{
   std::string name; // переменная типа string для хранения имени
   std::cout << "Enter your name, sir: ";
   std::cin >> name; // запись имени в переменную
